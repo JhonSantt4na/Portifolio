@@ -1,0 +1,36 @@
+@import url(./components/cpnts-header/menu.css);
+header{
+    border: 1px solid rgb(255, 255, 255);
+    height: 550px;
+    background-color: black;
+}
+
+#container-nav{
+    margin: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo img{ 
+    width: 250px;
+    height: 100%;
+}
+
+#container-home{
+    margin: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
