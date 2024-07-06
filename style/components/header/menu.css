@@ -1,19 +1,21 @@
 #container-menu{
     
 }
+
 #container-menu ul{
     display: flex;
     gap: 50px;
-    
+    list-style: none;
 }
+
 #container-menu ul li{
     position: relative;
 }
+
 #container-menu ul li a{
     color: white;
     text-decoration: none;
     transition: color 0.3s ease, text-shadow 0.3s ease;
-
 }
 
 #container-menu ul li a:hover{

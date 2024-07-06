@@ -1,8 +1,8 @@
-@import url(./components/cpnts-header/menu.css);
+@import url(./menu.css);
 header{
     border: 1px solid rgb(255, 255, 255);
     height: 550px;
-    background-color: black;
+    background-color: #131415;
 }
 
 #container-nav{
