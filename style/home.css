@@ -1,8 +1,16 @@
 @import url("./components/home/social.css");
 @import url("./components/home/download-cv.css");
-#container-home h1,h2{
+
+#container-home h1{
     color: white;
+    font-size: 3.6rem;
+
 }
 #container-home span{
-    color: #FFD700;
+    color: var(--cor-primaria);
+}
+
+#container-home h2 {
+    color: white;
+    font-size: 1.8rem;
 }

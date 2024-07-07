@@ -32,7 +32,7 @@
     border-radius: inherit;
     background: linear-gradient(
       82.3deg,
-      #FFD700 10.8%,
+      var(--cor-primaria) 10.8%,
       #9f880bca 94.3%
     );
     transition: all 0.475s;

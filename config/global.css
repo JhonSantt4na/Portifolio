@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --cor-primaria: #FFD700;
+    --cor-secundaria: #131415;
+}
