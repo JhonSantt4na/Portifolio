@@ -2,20 +2,19 @@
 @import url("./components/header/btn_toggler.css");
 
 header{
-    height: 550px;
+    height: 500px;
     background-color: var(--cor-secundaria);
 }
 
 #container-nav{
-    height: 8rem;
+    height: 5rem;
     max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo,
-#container-social{
+.logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,21 +27,4 @@ header{
 .container-dark-mod{
     margin-right: 48px;
     margin-left: 48px;
-}
-
-
-#container-home{
-    margin: 20px;
-    height: 390px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#container-txt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }

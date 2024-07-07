@@ -1,18 +1,45 @@
 @import url("./components/home/social.css");
 @import url("./components/home/download-cv.css");
 @import url("./components/home/scrollInfite.css");
-
+@import url("./components/home/words.css");
 
 #container-home h1{
     color: white;
     font-size: 3.6rem;
-
+    margin: 10px;
 }
-#container-home span{
-    color: var(--cor-primaria);
-}
-
 #container-home h2 {
     color: white;
+    margin: 10px;
+    margin-top: 30px;
     font-size: 1.8rem;
+}
+
+#container-home{
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#container-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:auto;
+    width: auto;
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+#container-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__btncv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

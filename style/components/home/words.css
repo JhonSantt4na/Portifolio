@@ -1,0 +1,47 @@
+.container__txtAnimation{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.container__txtAnimation span {
+    position: relative;
+}
+
+.container__txtAnimation span::before {
+    content: "";
+    color: var(--cor-primaria);
+    animation: words 7s infinite;
+}
+.container__txtAnimation span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid var(--cor-primaria);
+    right: -10px;
+    animation: cursorPiscando .8s infinite, digita 15s steps(7) infinite;
+    width: calc(100% + 12px);
+    background-color: var(--cor-secundaria);
+}
+@keyframes cursorPiscando {
+    0%{
+        border-left: 2px solid var(--cor-secundaria);
+    }
+}
+
+@keyframes words {
+    0%,50% {
+        content: "JORGE";
+    }
+    51%,100%{
+        content: "SANTT4NA";
+    }
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 12px);
+    }
+}

@@ -1,26 +1,31 @@
-.button {
+.dow__cv {
     position: relative;
     overflow: hidden;
     height: 3rem;
     padding: 0 2rem;
     border-radius: 1.5rem;
-    background: #dad9e0fc;
+    background: var(--cor-secundaria);
     background-size: 400%;
-    color: black;
     border: none;
     cursor: pointer;
+    border: 1px solid var(--cor-primaria) ;
+    
 }
-  
-.button:hover::before {
+.dow__cv:hover::before {
     transform: scaleX(1);
+    
 }
   
-.button-content {
+.btn__cv {
     position: relative;
-    z-index: 1;
+    z-index: 1; 
+    color: var(--cor-primaria);  
 }
-  
-.button::before {
+button.dow__cv:hover{
+    color: var(--cor-secundaria);
+}
+
+.dow__cv::before {
     content: "";
     position: absolute;
     top: 0;
@@ -31,9 +36,11 @@
     height: inherit;
     border-radius: inherit;
     background: linear-gradient(
-      82.3deg,
-      var(--cor-primaria) 10.8%,
-      #9f880bca 94.3%
+    82.3deg,
+    black 10.8%,
+    black 94.3%
     );
     transition: all 0.475s;
+    
 }
+  
