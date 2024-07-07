@@ -1,5 +1,7 @@
 @import url("./components/home/social.css");
 @import url("./components/home/download-cv.css");
+@import url("./components/home/scrollInfite.css");
+
 
 #container-home h1{
     color: white;

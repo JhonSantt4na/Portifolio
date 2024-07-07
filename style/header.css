@@ -1,14 +1,12 @@
 @import url("./components/header/menu.css");
 @import url("./components/header/btn_toggler.css");
+
 header{
-    border: 1px solid rgb(255, 255, 255);
     height: 550px;
     background-color: var(--cor-secundaria);
 }
 
 #container-nav{
-    margin: 20px;
-    border: 1px solid rgb(255, 255, 255);
     height: 8rem;
     max-width: 100%;
     display: flex;
@@ -35,7 +33,6 @@ header{
 
 #container-home{
     margin: 20px;
-    border: 1px solid rgb(255, 255, 255);
     height: 390px;
     display: flex;
     flex-direction: column;
