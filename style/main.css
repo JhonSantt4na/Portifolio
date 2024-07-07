@@ -1,0 +1,51 @@
+@import url("../config/global.css");
+@import url("./components/main/galery.css");
+@import url("./components/main/cards.css");
+
+.container__sobre{
+    border: 1px solid red;
+    height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    flex-direction: row;
+}
+.container__txtsobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 50%;
+}
+.container__galery{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    width: 50%;
+    height: 600px;
+}
+
+.container__efeito{
+    height: 400px;
+    width: auto;
+}
+#img__efect{
+    height: 400px;
+    width: 100%;
+}
+
+.container__projects{
+    border: 1px solid red;
+    height: 550px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}

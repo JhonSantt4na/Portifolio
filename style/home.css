@@ -35,7 +35,7 @@
 }
 #container-social{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .container__btncv{
