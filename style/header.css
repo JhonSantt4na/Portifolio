@@ -1,4 +1,5 @@
-@import url(./menu.css);
+@import url("./components/header/menu.css");
+@import url("./components/header/btn_toggler.css");
 header{
     border: 1px solid rgb(255, 255, 255);
     height: 550px;

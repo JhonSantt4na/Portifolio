@@ -1,0 +1,8 @@
+@import url("./components/home/social.css");
+@import url("./components/home/download-cv.css");
+#container-home h1,h2{
+    color: white;
+}
+#container-home span{
+    color: #FFD700;
+}
