@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #FFD700;
+    --cor-secundaria: #131415;
+}
+
+#container_nav{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1fr;
+    height: 80px;
+    background-color: var(--cor-secundaria);
+}
+
+
+
+#container-menu ul{
+    width: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+#container-menu ul li{
+    position: relative;
+}
+
+#container-menu ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#container-menu ul li a:hover{
+    color: var(--cor-primaria);
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+
+nav ul li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    background-color: var(--cor-primaria);
+    transition: all 0.3s ease;
+}
+nav ul li:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo img{ 
+    width: 250px;
+    height: 100%;
+}
+
+.dow__cv {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: var(--cor-secundaria);
+    background-size: 400%;
+    border: none;
+    cursor: pointer;
+    border: 1px solid white ;
+    
+}
+.dow__cv:hover::before {
+    transform: scaleX(1);
+    
+}
+  
+.btn__cv {
+    position: relative;
+    z-index: 1; 
+    color: white;  
+}
+button.dow__cv:hover{
+    color: black;
+}
+
+.dow__cv::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: var(--cor-primaria);
+    transition: all 0.475s;
+    
+}
+
+
+header{
+    background-image: url('../intro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(236, 7, 7);
+    height: 650px;
+    width: 1fr;
+}
