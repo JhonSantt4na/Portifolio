@@ -1,0 +1,35 @@
+@import url('./header.css');
+@import url('./header_section.css');
+
+:root {
+    --cor-primaria: #FFD700;
+    --cor-secundaria: #131415;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    border: 1px solid black;
+    background-color: var(--cor-secundaria);
+    height: 600px;
+}
+main{
+    border: 1px solid rgb(247, 8, 8);
+    height: 600px;
+}
+aside{
+    border: 1px solid rgb(29, 238, 10);
+    height: 300px;
+}
+section{
+    border: 1px solid rgb(240, 224, 7);
+    height: 600px;
+}
+footer{
+    border: 1px solid rgb(8, 70, 240);
+    height: 200px;
+}
