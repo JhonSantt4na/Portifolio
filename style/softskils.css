@@ -1,0 +1,65 @@
+.container-skils {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.notification {
+    margin: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    isolation: isolate;
+    position: relative;
+    width: auto;
+    height: 100%;
+    background: var(--cor-fundo);
+    border-radius: 1rem;
+    overflow: hidden;
+    font-size: 12px;
+    --gradient: linear-gradient(to bottom, var(--cor-principal), #e9a558, #e0bc93);
+    color: var(--cor-letras);
+    white-space: nowrap;
+    padding: 3px;
+}
+
+.notification:before {
+    position: absolute;
+    content: "";
+    inset: 0.0625rem;
+    border-radius: 0.9375rem;
+    background: var(--cor-fundo);
+    z-index: 2
+}
+
+.notification:after {
+    position: absolute;
+    content: "";
+    width: 0.25rem;
+    inset: 0.65rem auto 0.65rem 0.5rem;
+    border-radius: 0.125rem;
+    background: var(--gradient);
+    transition: transform 300ms ease;
+    z-index: 4;
+}
+
+.notification:hover:after {
+    transform: translateX(0.15rem)
+}
+
+.notititle {
+    color: var(--color);
+    padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: transform 300ms ease;
+    z-index: 5;
+}
+
+.notification:hover .notititle {
+    transform: translateX(0.15rem)
+}

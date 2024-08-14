@@ -1,20 +1,20 @@
-footer {
+#project {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5px 5px 0 5px;
-    height: 55vh;
-    margin: 0 1.5rem;
+    padding: 5px 5px 5px 5px;
+    height: 90vh;
+    margin: 7rem 1.5rem;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     background-color: var(--cor-fundo);
     position: relative;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
 }
 
-.borded-footer {
+
+.border-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,5 @@ footer {
     color: var(--cor-letras);
     background-color: var(--cor-fundo);
     border: 2px solid var(--cor-principal);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom: none;
+    border-radius: 20px;
 }
